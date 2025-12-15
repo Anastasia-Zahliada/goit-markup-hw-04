@@ -329,8 +329,7 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-link:hover .portfolio-overlay,
-.portfolio-link:focus .portfolio-overlay {
+.portfolio-link:hover .portfolio-overlay {
   transform: translateY(0);
 }
 
@@ -367,6 +366,11 @@ a {
 .footer-container {
   display: flex;
   gap: 120px;
+  align-items: baseline;
+}
+
+.ft-container {
+  margin-right: 120px;
 }
 
 .footer-logo {
@@ -392,6 +396,8 @@ a {
 .footer-social-title {
   margin-bottom: 16px;
   color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .footer-social-list {
@@ -411,6 +417,12 @@ a {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-item {
+}
+
+.ft-svg {
+  fill: #f4f4fd;
 }
 
 .footer-social-link:hover,
