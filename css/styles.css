@@ -200,7 +200,6 @@ a {
 .features-icon-wrap {
   background-color: #f4f4fd;
   border-radius: 4px;
-  padding: 24px 0;
   margin-bottom: 8px;
   display: flex;
   justify-content: center;
@@ -370,10 +369,6 @@ a {
   display: flex;
   gap: 120px;
   align-items: baseline;
-}
-
-.ft-container {
-  margin-right: 120px;
 }
 
 .footer-logo {
